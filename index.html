@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="icon" href="images/icon.webp" type="image/webp" />
+  <title>Pishori Rice — Fresh Mwea Rice Delivered</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#home">
+        <img src="images/LOGO.webp" alt="Pishori logo" class="logo-img" />
+        <span>Pishori Rice by Kadogo</span>
+      </a>
+      <button id="nav-toggle" class="nav-toggle" aria-label="Toggle navigation">☰</button>
+      <nav id="main-nav" class="main-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#rice">Rice</a>
+        <a href="#enquire">Order</a>
+      </nav>
+      <a class="whatsapp-link" href="https://wa.me/0740229030" target="_blank">WhatsApp</a>
+    </div>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <span class="eyebrow">Fresh Mwea Pishori Rice Delivered</span>
+          <h1>Premium Pishori Rice Straight to Your Door</h1>
+          <p>Order the best Mwea pishori rice for home, shop, or business. Fast delivery and authentic taste in every bag.</p>
+          <div class="hero-actions">
+            <a class="btn" href="#enquire">Order Now</a>
+            <a class="btn outline" href="#rice">View Rice</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="container about">
+      <h2>Why Choose Our Pishori</h2>
+      <p class="intro-text">We deliver premium Mwea Pishori rice that is fresh, aromatic, and carefully sourced. Simple WhatsApp ordering makes it easy to get rice delivered fast.</p>
+      <div class="feature-grid">
+        <div class="feature-card">
+          <h3>Trusted Quality</h3>
+          <p>Handpicked rice from Mwea farms, sorted and packaged for freshness.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Simple Ordering</h3>
+          <p>Quick order via WhatsApp, with a friendly team ready to respond.</p>
+        </div>
+        <div class="feature-card">
+          <h3>Fast Delivery</h3>
+          <p>Reliable delivery across Nairobi and nearby counties.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="rice" class="container products">
+      <h2>Our Rice Varieties</h2>
+      <p class="intro-text">Choose the right pack for your needs — home, family, or wholesale.</p>
+      <div class="grid">
+        <article id="pishori-10kg" class="card">
+          <img src="https://zimcompass.ap-south-1.linodeobjects.com/zimcompass-product_ac41638620491043391393.jpg" alt="Pishori 10kg" />
+          <span class="card-badge">Popular</span>
+          <h3>10kg Pishori</h3>
+          <p class="card-desc">Perfect for families and daily cooking. Rich aroma and excellent texture.</p>
+          <p class="card-price">KES 1,700 / bag</p>
+          <div class="card-actions">
+            <button class="btn enquire-btn">Enquire</button>
+            <button class="btn outline buy-now" data-product="Pishori — 10kg">Buy Now</button>
+          </div>
+        </article>
+        <article id="pishori-5kg" class="card">
+          <img src="https://zimcompass.ap-south-1.linodeobjects.com/zimcompass-product_0db3638581685313362532.jpg" alt="Pishori 5kg" />
+          <span class="card-badge">Family</span>
+          <h3>5kg Pishori</h3>
+          <p class="card-desc">Convenient pack for smaller families and frequent fresh cooking.</p>
+          <p class="card-price">KES 850 / bag</p>
+          <div class="card-actions">
+            <button class="btn enquire-btn">Enquire</button>
+            <button class="btn outline buy-now" data-product="Pishori — 5kg">Buy Now</button>
+          </div>
+        </article>
+        <article id="bulk" class="card">
+          <img src="images/bulk-pishori.jpg" alt="Bulk pishori" />
+          <span class="card-badge">Wholesale</span>
+          <h3>Bulk Orders</h3>
+          <p class="card-desc">Large quantities for restaurants, shops, and events.</p>
+          <p class="card-price">Contact for pricing</p>
+          <div class="card-actions">
+            <button class="btn enquire-btn">Enquire</button>
+            <button class="btn outline buy-now" data-product="Bulk Pishori Order">Buy Now</button>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section id="enquire" class="container order-section">
+      <div class="order-card">
+        <h2>Quick Order</h2>
+        <p>Fill your details below and send your order directly on WhatsApp.</p>
+        <form id="enquire-form">
+          <label>
+            Quantity (kg)
+            <input type="number" name="quantity" min="1" placeholder="1" required />
+          </label>
+          <label>
+            Location / Address
+            <input type="text" name="location" placeholder="Embu town" required />
+          </label>
+          <label>
+            Phone / WhatsApp
+            <input type="text" name="contact" placeholder="07xxxxxxxx" required />
+          </label>
+          <button type="submit" class="btn">Send Order via WhatsApp</button>
+          <p id="form-status" class="form-status">Your order will open in WhatsApp after you click submit.</p>
+        </form>
+      </div>
+      <div class="contact-card">
+        <h3>Contact Info</h3>
+        <p>Embu</p>
+        <p><strong>Phone:</strong> <a href="tel:0740229030">0740229030</a></p>
+        <p><strong>Email:</strong> <a href="faithmutembei2023@gmail.com">faithmutembei2023@gmail.com</a></p>
+        <p><strong>Hours:</strong> Mon - Sat, 8:00 AM - 6:00 PM</p>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <p><strong>Pishori Rice</strong></p>
+        <p>Designed by santos</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
