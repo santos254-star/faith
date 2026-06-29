@@ -1,4 +1,4 @@
-const PHONE_NUMBER = '0740229030';
+const PHONE_NUMBER = '0117030765';
 
 function getWhatsAppUrl(message){
   const digits = PHONE_NUMBER.replace(/\D/g, '');
